@@ -1,0 +1,3 @@
+/*
+To be honest. I wanted to do this for fun. This file is for updating the game instead of installing. Net Code will contain the majority of everything. Will do most of the db parsing in both files instead of making a seperate thing for it.
+ */

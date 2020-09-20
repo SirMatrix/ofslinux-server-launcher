@@ -9,3 +9,4 @@ edition = "2018"
 [dependencies]
 curl = "0.4.33"
 clap = "2.33.3"
+rusqlite = "0.24.0"

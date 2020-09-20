@@ -1,7 +1,6 @@
 
 use std::fs;
 use std::path::Path;
-
 mod utils;
 
 
@@ -25,6 +24,14 @@ pub fn check_existance(){
 
 fn main() {
 
-    check_existance();
+    let ofp = "open_fortress";
+    let ofd = Path::new(&ofp).exists();
+    if ofd != true {
+        fs::create_dir_all(ofp).unwrap();
+
+    }
+    utils::netcode::reader("https://svn.openfortress.fun/files/");
+
+
 
 }
