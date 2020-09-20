@@ -3,6 +3,8 @@ use std::fs;
 use std::path::Path;
 
 
+
+
 pub fn check_existance(){
     let remotep = "ofslinux-server-launcher/remote";
     let localp =  "ofslinux-server-launcher/local";
@@ -22,7 +24,7 @@ pub fn check_existance(){
 
 
 fn main() {
-    println!("Test");
+
     check_existance();
 
 }
